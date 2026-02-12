@@ -1,31 +1,49 @@
-# Assignment 4
+# The Homestead Hub – Bootstrap Responsive Website
 
-### Weight: 15% of your final mark.
-
-This Assignment will be due on the final day of the semester.
+The goal of this project was to build a fully responsive website using the Bootstrap framework while following proper semantic HTML structure and best practices.
 
 ---
 
-## Hints
+## Project Overview
 
-1. Do not forget to semantically name your images.
+- Building a clean, responsive layout using **Bootstrap**
+- Using only the framework’s built-in classes (no custom CSS or JavaScript)
+- Structuring the HTML semantically to create a logical document outline
+- Ensuring the website validates without HTML errors
+- Optimizing images and naming them appropriately
+- Running a Lighthouse audit and improving performance where possible
 
-2. Make sure that your images have an appropriate file size.
+The typography and colour system used in this project come directly from Bootstrap’s default styles.
 
-3. You do not need to write any custom CSS or JavaScript. In fact, avoid it.
+---
 
-4. The typography sizing are the default sizes defined within the framework. All of the colours used come from the framework.
+## Key Features
 
-5. Your HTML must be sectioned appropriately and must produce a logical document outline.
+### Sticky Header
+The header remains fixed at the top of the screen while scrolling.
 
-6. Your HTML must be valid (i.e. not throw any validation errors) and have a semantic title.
+### Responsive Navigation Bar
+The navigation collapses on smaller screens and expands at the large breakpoint.  
+It uses Bootstrap’s toggle functionality and JavaScript library.
 
-7. The header element is ‘sticky’ and stays at the top of the screen when scrolling.
+### Carousel Component
+Implemented using Bootstrap’s JavaScript components.
 
-8. The navigation is fully responsive and expands at the large breakpoint.
+### Semantic HTML Structure
+The document is structured using appropriate sectioning elements to ensure a clear and logical outline.
 
-9. The navigation links can link to the different sections on the page, however, that is optional.
+### Optimized Images
+All images are semantically named and properly sized for performance.
 
-10. Both the toggle navigation and the carousel require Bootstrap’s JavaScript library.
+### Lighthouse Auditing
+I ran Lighthouse to identify missing meta tags and improve overall accessibility and SEO.  
+Due to Bootstrap’s file sizes, achieving a perfect score is not realistic, which is expected.
 
-12. Run Lighthouse in order to audit your website and add any missing meta tags. Due to the length of Bootstrap's stylesheets and JavaScript library, you will never get a _perfect_ score; this is okay.
+---
+
+## Technologies Used
+
+- HTML5
+- Bootstrap (CSS & JavaScript)
+- Lighthouse (for auditing and optimization)
+
